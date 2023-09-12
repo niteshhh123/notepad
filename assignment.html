@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notepad</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(8, 8, 90);
+        }
+        h3{
+            margin: 20px;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+        }
+        .txtContent{
+            width: 600px;
+            height: 400px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            width: 194px;
+            height: 30px;
+            margin: 5px;
+            color: white;
+            background-color: skyblue;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h3>Notepad</h3>
+        <div class="container">
+            <div class="content">
+            <textarea class="txtContent" id="txtContent"></textarea>
+            </div>
+        </div>
+        <div class="btn">
+                <button type="submit" id="btn1">save</button>
+                <button type="reset" id="btn2">clear</button>
+            </div>
+    </form>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+    
+</body>    
+</html>
